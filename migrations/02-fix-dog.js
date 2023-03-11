@@ -3,9 +3,9 @@ module.exports = function (migration) {
   
   dog.deleteField('age');
 
-  dog.createField('age', {
-    name: 'Age',
-    type: 'Number',
+  dog.createField('favoriteFood', {
+    name: 'Favorite Food',
+    type: 'Text',
     required: false,
   });
 }
